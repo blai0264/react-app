@@ -18,7 +18,7 @@ class Header extends Component {
     return (
         <nav>
          <h1 ref="h1">React Midterm<br/>
-         <NavLink to="/"><button ref="button" onClick={this.hideButton} className="home">Go Home</button></NavLink>
+         <NavLink to="/react-app/"><button ref="button" onClick={this.hideButton} className="home">Go Home</button></NavLink>
          </h1> 
          </nav>       
     );
