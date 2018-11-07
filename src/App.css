@@ -22,6 +22,15 @@ a:hover{
   width: 50%;
 }
 
+.notFound{
+  border: 1px solid deepskyblue;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  width: 50%;
+  font-size: 4rem;
+}
+
 .home{
   font-size: 15px black;
   width: 70px;

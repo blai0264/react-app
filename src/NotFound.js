@@ -5,7 +5,7 @@ class NotFound extends Component {
     render() {
       return (
         <ul>
-            <li className="loading">404: Page Not Found</li>
+            <li className="notFound">404: Page Not Found</li>
         </ul>
         
       );
