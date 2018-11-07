@@ -9,9 +9,9 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/react-app/">
       <Switch>
-        <Route path = {process.env.PUBLIC_URL + '/'} component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/users/:userID/posts" component={Posts} />
         <Route exact path="/users/:userID/todos" component={Todos} />
       </Switch>
