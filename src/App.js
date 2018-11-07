@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <BrowserRouter>
       <Switch>
-        <Route path = {process.env.PUBLIC_URL + '/react-app/'} component={Home} />
+        <Route path = {process.env.PUBLIC_URL + '/'} component={Home} />
         <Route exact path="/users/:userID/posts" component={Posts} />
         <Route exact path="/users/:userID/todos" component={Todos} />
       </Switch>
