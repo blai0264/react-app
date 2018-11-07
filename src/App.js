@@ -4,6 +4,7 @@ import Home from './Home';
 import Header from './Header';
 import Posts from './Posts';
 import Todos from './Todos';
+import NotFound from './NotFound';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route exact path="/users/:userID/posts" component={Posts} />
         <Route exact path="/users/:userID/todos" component={Todos} />
+        <Route component={NotFound} />
       </Switch>
       </BrowserRouter>
     );
